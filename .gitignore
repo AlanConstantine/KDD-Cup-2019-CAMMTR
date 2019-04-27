@@ -1,0 +1,9 @@
+*.csv
+.DS_Store
+*.log
+.ipynb_checkpoints/
+/__pycache__/
+*.zip
+*.xlsx
+__MAXCOSX/
+bkp/
