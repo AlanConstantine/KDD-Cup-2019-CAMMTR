@@ -1,9 +1,9 @@
 # KDD-Cup-2019-CAMMTR
 
-## Competition
+## Competition Website
 [Context-Aware Multi-Modal Transportation Recommendation](https://dianshi.baidu.com/competition/29/rule)
 
-## Structure
+## File Structure
 ```
 .
 ├── Code # 用来放代码，可在自己分支自行创建文件夹或者文件
