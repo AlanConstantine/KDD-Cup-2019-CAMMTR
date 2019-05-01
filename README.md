@@ -6,7 +6,6 @@
 ## File Structure
 ```
 .
-.
 ├── Code # 代码文件
 │   └── ExploratoryDataAnalysis.ipynb
 │
