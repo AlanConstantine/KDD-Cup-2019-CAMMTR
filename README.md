@@ -7,22 +7,26 @@
 ```
 .
 ├── Code # 代码
+│   │
 │   ├── ExploratoryDataAnalysis.ipynb # EDA
 │   ├── FeatureEngineering # 数据处理和特征工程
 │   │   ├── train_queries_processing.ipynb
 │   │   ├── train_plans_processing.ipynb
 │   │   └── ...
+│   │
 │   ├── Models # 模型
 │   │   ├── lightgbm.ipynb
 │   │   ├── xgboost.ipynb
 │   │   ├── ...
 │   │   └── ...
+│   │
 │   └── Pipline # 最终的pipline
 │   │   ├── pipline.py
 │   │   ├── ...
 │   │   └── ...
 │
 ├── Data # 数据文件
+│   │
 │   ├── data_set_phase1
 │   │   ├── profiles.csv
 │   │   ├── test_plans.csv
@@ -30,6 +34,7 @@
 │   │   ├── train_clicks.csv
 │   │   ├── train_plans.csv
 │   │   └── train_queries.csv
+│   │
 │   ├── BeijingSubway.json # 北京地铁坐标数据
 │   ├── ShanghaiSubway.json # 上海地铁坐标数据
 │   ├── ...
