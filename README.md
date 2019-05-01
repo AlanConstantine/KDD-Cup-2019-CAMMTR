@@ -6,15 +6,22 @@
 ## File Structure
 ```
 .
-├── Code # 用来放代码，可在自己分支自行创建文件夹或者文件
-├── Data # 数据
-│   └── data_set_phase1
-│       ├── profiles.csv
-│       ├── test_plans.csv
-│       ├── test_queries.csv
-│       ├── train_clicks.csv
-│       ├── train_plans.csv
-│       └── train_queries.csv
+.
+├── Code # 代码文件
+│   └── ExploratoryDataAnalysis.ipynb
+│
+├── Data # 数据文件
+│   ├── BeijingSubway.json
+│   ├── data_set_phase1
+│   │   ├── profiles.csv
+│   │   ├── test_plans.csv
+│   │   ├── test_queries.csv
+│   │   ├── train_clicks.csv
+│   │   ├── train_plans.csv
+│   │   └── train_queries.csv
+│   └── ShanghaiSubway.json
+│
+├── .gitignore
 └── README.md
 ```
 
