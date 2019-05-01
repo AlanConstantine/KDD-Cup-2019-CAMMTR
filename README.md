@@ -17,12 +17,10 @@
 │   ├── Models # 模型
 │   │   ├── lightgbm.ipynb
 │   │   ├── xgboost.ipynb
-│   │   ├── ...
 │   │   └── ...
 │   │
 │   └── Pipline # 最终的pipline
 │       ├── pipline.py
-│       ├── ...
 │       └── ...
 │
 ├── Data # 数据文件
@@ -37,7 +35,6 @@
 │   │
 │   ├── BeijingSubway.json # 北京地铁坐标数据
 │   ├── ShanghaiSubway.json # 上海地铁坐标数据
-│   ├── ...
 │   └── ...
 │
 ├── .git
