@@ -32,10 +32,9 @@
 │   │   ├── train_clicks.csv
 │   │   ├── train_plans.csv
 │   │   └── train_queries.csv
-│   │
-│   ├── BeijingSubway.json # 北京地铁坐标数据
-│   ├── ShanghaiSubway.json # 上海地铁坐标数据
-│   └── ...
+│   └── submit.csv
+│
+├── Config # 配置文件夹
 │
 ├── .git
 │
