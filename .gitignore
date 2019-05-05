@@ -7,3 +7,5 @@
 *.xlsx
 __MAXCOSX/
 bkp/
+Config/
+Crawler/
