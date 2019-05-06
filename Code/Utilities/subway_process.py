@@ -37,7 +37,7 @@ def parse_json(j):
 
 
 if __name__ == "__main__":
-    pathpool = [r'../../Data/BeijingSubway.json',
-                r'../../Data/ShanghaiSubway.json']
+    pathpool = [r'../../Config/Beijing.json',
+                r'../../Config/Shanghai.json']
     for p in pathpool:
         process(p)
