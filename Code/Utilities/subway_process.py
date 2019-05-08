@@ -10,7 +10,7 @@ from pprint import pprint as ppt
 
 
 def process(path):
-    with open(path, 'r') as rf:
+    with open(path, 'r', encoding='utf-8') as rf:
         subway = json.load(rf)
     path_, filename = os.path.split(path)
     output_path = filename.replace('.json', '.csv')
