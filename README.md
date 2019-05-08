@@ -7,7 +7,6 @@
 ```
 .
 ├── Code # 代码
-│   │
 │   ├── ExploratoryDataAnalysis.ipynb # EDA
 │   ├── FeatureEngineering # 数据处理和特征工程
 │   │   ├── train_queries_processing.ipynb
@@ -20,11 +19,12 @@
 │   │   └── ...
 │   │
 │   └── Pipline # 最终的pipline
-│       ├── pipline.py
-│       └── ...
+│   │   ├── pipline.py
+│   │   └── ...
+│   │   
+│   └──  Utilities # json解析代码
 │
 ├── Data # 数据文件
-│   │
 │   ├── data_set_phase1
 │   │   ├── profiles.csv
 │   │   ├── test_plans.csv
@@ -35,6 +35,7 @@
 │   └── submit.csv
 │
 ├── Config # 配置文件夹
+│   └── *.json
 │
 ├── .git
 │
