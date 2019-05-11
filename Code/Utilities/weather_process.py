@@ -30,13 +30,13 @@ def parse_json(j):
         weather_pd.loc[index] = insert_list
         index += 1
 
-    types = weather_pd['weather'].unique()
-    add_c = ['weather_'+t for t in types]
-    current_c = list(weather_pd.columns.values)
-    current_c.extend(add_c)
-    weather_pd = weather_pd.reindex(columns=current_c, fill_value=0)
-    for t in add_c:
-        weather_pd.loc[(weather_pd['weather'] == t.split('_')[-1]), [t]] = 1
+    # types = weather_pd['weather'].unique()
+    # add_c = ['weather_'+t for t in types]
+    # current_c = list(weather_pd.columns.values)
+    # current_c.extend(add_c)
+    # weather_pd = weather_pd.reindex(columns=current_c, fill_value=0)
+    # for t in add_c:
+    #     weather_pd.loc[(weather_pd['weather'] == t.split('_')[-1]), [t]] = 1
 
     # weather_pd.drop(columns=['weather'], axis=1, inplace=True)
 
